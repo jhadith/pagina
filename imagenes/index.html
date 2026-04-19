@@ -1,0 +1,107 @@
+
+<html>
+<head>
+   
+    <title>formularios</title>
+<style> 
+input{
+    color: pink;
+}
+
+div{
+    width: 100%;
+     height: 100%;
+     background-color: pink;
+     
+}
+.seba{
+    color: rgb(255, 255, 255);
+}
+
+#gato{
+    width: 10%;
+    height: 20%;
+}
+</style>
+
+</head>
+<body>
+    <input type="text">
+    <input type="button" value="holi">
+    <div>
+      <form>
+        <fieldset style="text-align: center;">
+        <table>
+            <legend class="seba">datos personales</legend>
+
+    <tr>
+        <td>  <label class="seba"> ingrese name</label></td>
+      
+        <td>
+            <input type="text" placeholder="me caen bien">
+        </td>
+           
+    </tr>
+    <tr>
+        
+        <td><br><label> ingrese eda</label></td>
+        <td> <input type="number" class="seba"></br></td>
+       
+    </tr>
+ <tr>
+    <td><label > direccion porfavor</label> </td>
+    
+    <td>  <textarea></textarea></td>
+  
+ </tr>
+
+
+
+</table>
+
+</fieldset>
+<fieldset>
+<label>INGRESE  SEXO  TIENE</label><br>
+</br>
+masculino <input type="radio" name="sexo"><br>
+femenino uwu <input type="radio" name="sexo"><br>
+<select>
+    <option>holi</option>
+    <option>chae</option>
+    <option>gubai</option>
+    <option>diegogo</option>
+</select><br>
+
+<label>estado civil</label>
+<select>
+    <option  value="">mañana</option>
+    <option>noshe</option>
+    <option>no casado</option>
+    <option>no amarrado</option>
+    <option>jeje</option>
+</select><br>
+
+</fieldset>
+
+<fieldset>
+    <legend>ACCIONES UnU</legend>
+    <button onclick="holi()" type="reset">Imprimig</button>
+
+    <img src="gato.jpg" id="gato">  
+</fieldset>
+   
+      </form>
+    </div>
+
+    para cambiar a otra pagina
+<a href="datos.html"> Ir a datos</a>
+
+
+</body>
+</html>
+
+<script>
+    function holi(){
+        alert("datos enviados")
+    }
+</script>
